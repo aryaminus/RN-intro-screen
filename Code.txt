@@ -26,3 +26,6 @@ const app = StackNavigator({
     }
   }
 });
+
+Then:
+npm install react-native-vector-icons --save

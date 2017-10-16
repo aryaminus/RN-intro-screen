@@ -37,6 +37,11 @@ Follow Code.txt and <a href="https://youtu.be/rCWojb0frwc" target="_blank">Youtu
 ## Packages:
 <a href="https://reactnavigation.org/docs/intro/" target="_blank">react-navigation</a>
 
+<a href="https://github.com/oblador/react-native-vector-icons" target="_blank">react-native-vector-icons</a>
+
+### Icons
+<a href="http://ionicframework.com/docs/ionicons/" target="_blank">Ionicons</a>
+
 ### Installation
 Follow Code.txt 
 

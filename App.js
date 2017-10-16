@@ -10,6 +10,7 @@ import { StackNavigator } from "react-navigation";
 
 import Screen from "./app/components/Screen";
 import Swiper from "./app/components/Swiper";
+import Boiler from "./app/components/Boiler";
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -18,7 +19,7 @@ const instructions = Platform.select({
     "Shake or press menu button for dev menu"
 });
 
-class Homescreen extends Component<{}> {
+class Home extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
@@ -30,9 +31,9 @@ class Homescreen extends Component<{}> {
 
 const App = StackNavigator({
   Home: {
-    screen: HomeScreen,
+    screen: Home,
     navigationOptions: {
-      title: "Welcome"
+      title: "Home"
     }
   },
   Screen: {
@@ -45,6 +46,12 @@ const App = StackNavigator({
     screen: Swiper,
     navigationOptions: {
       title: "Swiper"
+    }
+  },
+  Boiler: {
+    screen: Boiler,
+    navigationOptions: {
+      title: "Boiler"
     }
   }
 });
