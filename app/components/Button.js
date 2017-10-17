@@ -11,7 +11,7 @@ import {
   View // Container component
 } from "react-native";
 
-export default class Button1 extends Component {
+export default class Button extends Component {
   render({ onPress } = this.props) {
     return (
       <TouchableOpacity onPress={onPress}>

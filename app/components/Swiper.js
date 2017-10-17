@@ -4,7 +4,6 @@
  * pagination indicators and a button to swipe through screens
  * or to get out of the flow when the last screen is reached
  */
-
 import React, { Component } from "react";
 import {
   AppRegistry,
@@ -14,10 +13,13 @@ import {
   StyleSheet, // CSS-like styles
   View // Container component
 } from "react-native";
-import Button from "./Button";
+
 import { StackNavigator } from "react-navigation";
+
 // Detect screen width and height
 const { width, height } = Dimensions.get("window");
+
+import Button from "./Button";
 import Boiler from "./Boiler";
 
 export default class OnboardingScreens extends Component {

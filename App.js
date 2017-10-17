@@ -12,12 +12,12 @@ import Screen from "./app/components/Screen";
 import Swiper from "./app/components/Swiper";
 import Boiler from "./app/components/Boiler";
 
-const instructions = Platform.select({
+/*const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
   android:
     "Double tap R on your keyboard to reload,\n" +
     "Shake or press menu button for dev menu"
-});
+});*/
 
 class Home extends Component<{}> {
   static navigationOptions = {
