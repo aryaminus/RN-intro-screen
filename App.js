@@ -29,7 +29,7 @@ class Home extends Component<{}> {
   }
 }
 
-const App = StackNavigator({
+export default App = StackNavigator({
   Home: {
     screen: Home,
     navigationOptions: {
