@@ -2,7 +2,7 @@
 
 **RNintroscreen** is the 2nd session build for showing the implementation of Intro / Welcome screen in modern apps
 
-[![RNintroscreen demo](https://i.imgur.com/iaoLU3O.gif)](http://www.youtube.com/watch?v=gC2iDVl4RRM)
+[![RNintroscreen demo]()](http://www.youtube.com/watch?v=gC2iDVl4RRM)
 
 **Note:**
 
