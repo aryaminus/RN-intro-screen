@@ -29,3 +29,5 @@ const app = StackNavigator({
 
 Then:
 npm install react-native-vector-icons --save
+react-native link react-native-vector-icons
+react-native link
