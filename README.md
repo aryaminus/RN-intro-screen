@@ -2,7 +2,7 @@
 
 **RNintroscreen** is the 2nd session build for showing the implementation of Intro / Welcome screen in modern apps
 
-[![RNintroscreen demo](https://i.imgur.com/kGWrM0v.gif)](http://www.youtube.com/watch?v=gC2iDVl4RRM)
+[![RNintroscreen demo](https://i.imgur.com/kGWrM0v.gif)](https://youtu.be/T8eMU0x_P2g)
 
 **Note:**
 
@@ -32,7 +32,7 @@ react-native link
 then press F1 or Fn+F1 and React Native:Run Android on Device 
 
 **Else**
-Follow Code.txt and <a href="https://youtu.be/rCWojb0frwc" target="_blank">Youtube</a>
+Follow Code.txt and <a href="https://youtu.be/T8eMU0x_P2g" target="_blank">Youtube</a>
 
 ## Packages:
 <a href="https://reactnavigation.org/docs/intro/" target="_blank">react-navigation</a>
@@ -43,7 +43,7 @@ Follow Code.txt and <a href="https://youtu.be/rCWojb0frwc" target="_blank">Youtu
 <a href="http://ionicframework.com/docs/ionicons/" target="_blank">Ionicons</a>
 
 ### Installation
-Follow Code.txt 
+Follow Code.txt and Working.png
 
 ## Contributing
 
