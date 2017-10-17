@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View } from "react-native";
+import { Platform, StyleSheet, StatusBar, Text, View } from "react-native";
 import { StackNavigator } from "react-navigation";
 
 import Screen from "./app/components/Screen";
@@ -20,16 +20,24 @@ const instructions = Platform.select({
 });
 
 class Home extends Component<{}> {
+  static navigationOptions = {
+    headerStyle: {
+      backgroundColor: "#16a085",
+      elevation: null
+    },
+    header: null
+  };
   render() {
     return (
       <View style={styles.container}>
+        <StatusBar barStyle="light-content" backgroundColor="#16a085" />
         <Screen navigation={this.props.navigation} />
       </View>
     );
   }
 }
 
-export default App = StackNavigator({
+export default (App = StackNavigator({
   Home: {
     screen: Home,
     navigationOptions: {
@@ -54,7 +62,7 @@ export default App = StackNavigator({
       title: "Boiler"
     }
   }
-});
+}));
 
 const styles = StyleSheet.create({
   container: {
