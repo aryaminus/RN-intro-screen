@@ -1,7 +1,7 @@
 # RNintroscreen
 
-**RNintroscreen** is the 2nd session build for showing the implementation of Intro / Welcome screen in modern apps
-
+**RNintroscreen** is the 2nd session build for showing the implementation of Intro / Welcome screen in modern apps.
+Let your users get familar with your app by giving an introduction with parallax effect.
 [![RNintroscreen demo](https://i.imgur.com/kGWrM0v.gif)](https://youtu.be/T8eMU0x_P2g)
 
 **Note:**
@@ -44,6 +44,8 @@ Follow Code.txt and <a href="https://youtu.be/T8eMU0x_P2g" target="_blank">Youtu
 
 ### Installation
 Follow Code.txt and Working.png
+
+[![RNintroscreen demo](https://i.imgur.com/WI3EdY7.png)]
 
 ## Contributing
 
