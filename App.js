@@ -37,7 +37,7 @@ class Home extends Component<{}> {
   }
 }
 
-export default (App = StackNavigator({
+export default App = StackNavigator({
   Home: {
     screen: Home,
     navigationOptions: {
@@ -62,7 +62,7 @@ export default (App = StackNavigator({
       title: "Boiler"
     }
   }
-}));
+});
 
 const styles = StyleSheet.create({
   container: {
